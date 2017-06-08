@@ -1,0 +1,17 @@
+{
+  "name": "mongo-backup",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yoslab/mongo-backup.git"
+  },
+  "scripts": {
+    "start:server": "node web-stream.js",
+    "start:cron": "node cron.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "moment": "^2.18.1",
+    "mongodb-backup": "1.6.9",
+    "node-cron": "^1.1.3"
+  }
+}
